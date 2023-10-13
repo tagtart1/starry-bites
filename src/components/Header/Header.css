@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Great Vibes, sans-serif;
+  color: #b39b8e;
+  font-size: 54px;
+}
+
+nav ul {
+  font-family: Roboto;
+  display: flex;
+  gap: 64px;
+  color: grey;
+  font-size: 18px;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li.activated {
+  text-decoration: underline;
+  text-decoration-color: #b39b8e;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+  color: white;
+}

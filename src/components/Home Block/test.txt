@@ -1,0 +1,7 @@
+  <img class="wooden-spoon-img" src={woodSpoon} alt="wooden-spoon" />
+          <img class="salt-1" src={salt} alt="salt dust" />
+          <img class="salt-2" src={salt} alt="salt dust" />
+          <img class="pepper-1" src={pepper} alt="pepper dust" />
+          <img class="herbs-1" src={herbs} alt="tomatoe-bay" />
+          <img class="rosemary" src={rosemary} alt="rosemary" />
+          <img class="dill-1" src={dillleaf} alt="dill leaf" />
