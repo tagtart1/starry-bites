@@ -21,11 +21,6 @@ const Home = () => {
         </div>
 
         <div class="steak-skillet-wrapper">
-          <img
-            class="steak-skillet"
-            src={steakSkillet}
-            alt="Gourmet steak on skillet"
-          />
           <img class="wooden-spoon-img" src={woodSpoon} alt="wooden-spoon" />
           <img class="salt-1" src={salt} alt="salt dust" />
           <img class="salt-2" src={salt} alt="salt dust" />

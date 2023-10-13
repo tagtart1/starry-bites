@@ -1,9 +1,14 @@
 .header {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
   justify-content: space-around;
   align-items: center;
+  pointer-events: auto;
 }
 
 header h1 {

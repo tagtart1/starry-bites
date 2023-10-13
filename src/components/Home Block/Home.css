@@ -15,17 +15,35 @@
 
 img.steak-skillet {
   margin: 0;
-  max-width: 700px;
+  max-width: 550px;
   width: 100%;
-  z-index: 5;
+  top: 20%;
+  position: absolute;
+  right: 300px;
+}
+
+.align-middle {
+  display: flex;
+  align-items: center;
 }
 
 img.wooden-spoon-img {
   position: absolute;
   width: 100%;
-  max-width: 250px;
-  bottom: 100px;
-  z-index: -2;
+  max-width: 190px;
+  right: 80px;
+  top: 25%;
+}
+
+img.dill-1 {
+  position: absolute;
+
+  transform: rotate(-20deg);
+  right: 80px;
+  top: 55%;
+  width: 100%;
+  max-width: 200px;
+  filter: hue-rotate(-40deg) brightness(150%);
 }
 
 img.salt-1 {
@@ -62,44 +80,35 @@ img.pepper-1 {
 
 img.rosemary {
   position: absolute;
-  z-index: -1;
+  z-index: -5;
   width: 100%;
   max-width: 200px;
-  bottom: 70px;
-  left: 620px;
+  top: 45%;
+  right: 175px;
   transform: rotate(-10deg);
   filter: brightness(80%);
 }
 
-img.dill-1 {
-  position: absolute;
-  z-index: -1;
-  transform: rotate(-20deg);
-  bottom: 110px;
-  right: -220px;
-  width: 100%;
-  max-width: 200px;
-  filter: hue-rotate(-40deg) brightness(150%);
-}
-
-.intro-main .intro-greeting {
+.intro-greeting {
   display: flex;
   flex-direction: column;
   font-family: Merriweather;
-  justify-self: end;
+  justify-content: center;
   color: white;
   max-width: 500px;
   gap: 48px;
   z-index: 2;
+  height: 100vh;
+  margin-left: 250px;
 }
 
-.intro-main .intro-greeting h1 {
+.intro-greeting h1 {
   line-height: 1.3;
   font-size: 64px;
   flex-shrink: 0;
 }
 
-.intro-main .intro-greeting .book-a-table {
+.intro-greeting .book-a-table {
   border: 3px solid gray;
   background-color: transparent;
   color: white;
