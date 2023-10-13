@@ -16,7 +16,7 @@ const Home = () => {
       <Header />
       <div class="intro-main">
         <div class="intro-greeting">
-          <h1>A Premium And Authentic Steakhouse</h1>
+          <h1>A FART And Authentic Steakhouse</h1>
           <button class="book-a-table">Book A Table</button>
         </div>
 
