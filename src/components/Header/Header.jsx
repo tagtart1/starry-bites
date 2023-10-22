@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ parallax }) => {
   const [selectedItem, setSelectedItem] = useState(0);
 
   return (
@@ -14,7 +14,10 @@ const Header = () => {
               return (
                 <li
                   key={index}
-                  onClick={() => setSelectedItem(index)}
+                  onClick={() => {
+                    setSelectedItem(index);
+                    parallax.current.scrollTo(index);
+                  }}
                   className={selectedItem === index ? "activated" : ""}
                 >
                   {item}

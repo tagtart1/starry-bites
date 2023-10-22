@@ -34,3 +34,8 @@ nav ul li.activated {
   text-decoration-thickness: 2px;
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

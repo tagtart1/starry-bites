@@ -5,17 +5,21 @@ import grilledSteak from "../../images/grilled-steak.png";
 
 const AboutUs = () => {
   return (
-    <div class="our-story-block">
+    <div className="our-story-block" id="About Us">
       <section>
-        <div>
-          <img src={grilledSteak} alt="steak on a grill" class="steak-grill" />
+        <div className="image-wrapper">
+          <img
+            src={grilledSteak}
+            alt="steak on a grill"
+            className="steak-grill"
+          />
         </div>
-        <div class="our-story-text">
-          <div class="story-headers">
-            <h1 class="discover-text">Discover</h1>
-            <h1 class="our-story-header-text">Our Story</h1>
+        <div className="our-story-text">
+          <div className="story-headers">
+            <h1 className="discover-text">Discover</h1>
+            <h1 className="our-story-header-text">Our Story</h1>
           </div>
-          <p class="text-body">
+          <p className="text-body">
             Starry Bites is not just a gourmet steakhouse; it's an ode to the
             finest cuts of meat, seasoned with tales of age-old traditions and
             grilled to perfection under a canopy of stars. Nestled in the heart
@@ -25,9 +29,8 @@ const AboutUs = () => {
             classic steakhouse favorites. At Starry Bites, we believe that every
             meal should be as unforgettable as a clear, starlit night.
           </p>
-          <p class="more-about-us-text">More About Us ⟶</p>
+          <p className="more-about-us-text">More About Us ⟶</p>
         </div>
-        <img class="thyme-stem-img" src={thyme} alt="thyme stem" />
       </section>
     </div>
   );

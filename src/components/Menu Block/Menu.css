@@ -1,0 +1,116 @@
+.menu-block {
+  display: flex;
+  justify-content: center;
+  font-family: Merriweather;
+}
+
+.menu-block-wrapper {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-block .menu-item-desc,
+.menu-block p {
+  color: rgb(200, 200, 200);
+  flex: 1.5;
+  line-height: 1.8;
+  font-family: Merriweather;
+  font-size: 17px;
+  max-width: 650px;
+}
+
+.menu-items {
+  margin-top: 150px;
+}
+
+.menu-intro {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+}
+.menu-intro {
+  display: flex;
+  align-items: center;
+}
+.menu-intro-header {
+  font-size: 3.5rem;
+  flex: 1;
+  text-align: right;
+}
+
+.menu-intro-header h1 {
+  font-family: Great Vibes;
+  color: #b39b8e;
+}
+
+.menu-intro-header h2 {
+  color: white;
+  font-family: Merriweather;
+  font-weight: bold;
+}
+.menu-item-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.menu-item-info {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu-item-head {
+  font-family: Great Vibes;
+  font-size: 3.5rem;
+  color: #b39b8e;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.thyme2-stem-img {
+  margin-left: 15vw;
+  width: 100%;
+  max-width: 150px;
+
+  transform: rotate(-40deg);
+}
+
+.salt-behind-plate-1 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  bottom: 0px;
+  max-width: 650px;
+}
+
+.herbs-2 {
+  position: absolute;
+
+  left: 300px;
+  transform: rotate(150deg);
+}
+
+.pepper-2 {
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  right: 15vw;
+}
+.salt-5 {
+  position: absolute;
+  width: 100%;
+  max-width: 650px;
+  right: 300px;
+}
+
+.min-width-375 {
+  min-width: 375px;
+}

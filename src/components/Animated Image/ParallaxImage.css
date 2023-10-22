@@ -1,0 +1,54 @@
+.image-container {
+  position: relative;
+  height: 600px; /* or whatever fixed height you want */
+  overflow: hidden;
+  margin-top: 54px;
+}
+
+.image-container .image-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+}
+
+.image-container .image-overlay .image-content {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.image-container .image-overlay .image-content h1 {
+  font-family: Great Vibes;
+  font-size: 54px;
+}
+
+.image-container .image-overlay .image-content h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.image-container .image-overlay .image-content button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Merriweather;
+  width: 275px;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 72px;
+  cursor: pointer;
+}
+
+.parallax-image {
+  filter: brightness(50%);
+  position: relative;
+  width: 100%;
+  transform: translateY(-20px); /* initial position */
+}

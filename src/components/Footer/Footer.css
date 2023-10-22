@@ -1,0 +1,50 @@
+footer {
+  align-items: center;
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h1 {
+  color: #b39b8e;
+  font-weight: bold;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer .content-wrapper {
+  display: flex;
+  color: #aaaaaa;
+  gap: 48px;
+}
+
+footer .content-wrapper .line-height {
+  line-height: 1.2;
+}
+
+footer .content-wrapper .quip {
+  width: 130px;
+
+  line-height: 1.2;
+}
+
+footer .brand-tag {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+footer .brand-tag h1 {
+  font-family: Great Vibes;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+footer .brand-tag p {
+  color: #aaaaaa;
+}
