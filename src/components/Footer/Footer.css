@@ -48,3 +48,11 @@ footer .brand-tag h1 {
 footer .brand-tag p {
   color: #aaaaaa;
 }
+
+@media only screen and (max-width: 910px) {
+  footer {
+    flex-direction: column;
+    gap: 36px;
+    margin-top: 100px;
+  }
+}

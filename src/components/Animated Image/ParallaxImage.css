@@ -52,3 +52,9 @@
   width: 100%;
   transform: translateY(-20px); /* initial position */
 }
+
+@media only screen and (max-width: 1270px) {
+  .parallax-image {
+    width: auto;
+  }
+}

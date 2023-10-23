@@ -5,7 +5,7 @@ const Header = ({ parallax }) => {
   const [selectedItem, setSelectedItem] = useState(0);
 
   return (
-    <header className="header">
+    <header className="header header-desktop">
       <h1>Starry Bites</h1>
       <nav>
         <ul>

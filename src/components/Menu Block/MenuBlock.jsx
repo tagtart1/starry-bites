@@ -27,7 +27,7 @@ export const MenuBlock = ({ parallax }) => {
           </p>
         </div>
         <div className="menu-items">
-          <div className="menu-item">
+          <div className="menu-item appetizer-item">
             <RotatingImage src={appetizer} maxwidth={400} parent={parallax} />
             <div className="menu-item-info">
               <h1 className="menu-item-head">Appetizer</h1>
@@ -51,7 +51,7 @@ export const MenuBlock = ({ parallax }) => {
             </div>
             <RotatingImage src={maindish} parent={parallax} />
           </div>
-          <div className="menu-item">
+          <div className="menu-item side-dish-item">
             <RotatingImage src={sidedish} parent={parallax} />
             <div className="menu-item-info">
               <h1 className="menu-item-head">Side Dish</h1>

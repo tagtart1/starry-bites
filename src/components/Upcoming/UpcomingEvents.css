@@ -90,3 +90,46 @@
   transform: rotate(-15deg);
   z-index: 1;
 }
+
+@media only screen and (max-width: 1000px) {
+  .upcoming-events-block section {
+    margin: 0px;
+  }
+
+  .upcoming-events-text {
+    padding: 48px;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .upcoming-events-block {
+    margin-top: 72px;
+  }
+  .upcoming-events-block section {
+    flex-direction: column;
+  }
+
+  .upcoming-events-block .image-wrapper {
+    width: 100%;
+    min-height: auto;
+    max-width: 825px;
+  }
+
+  .upcoming-events-text {
+    max-height: none;
+  }
+
+  .upcoming-events-block .image-wrapper img {
+    max-width: none;
+
+    max-height: none;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .upcoming-events-block {
+    height: auto;
+    margin-bottom: 100px;
+  }
+}

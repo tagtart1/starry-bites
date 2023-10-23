@@ -114,3 +114,65 @@
 .min-width-375 {
   min-width: 375px;
 }
+
+@media only screen and (max-width: 1040px) {
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-item {
+    justify-content: flex-start;
+    gap: 54px;
+  }
+  .menu-item img {
+    width: 350px;
+  }
+
+  .salt-behind-plate-1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .menu-block {
+    margin: 0px 24px;
+  }
+  .menu-intro {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .menu-intro-header {
+    text-align: center;
+  }
+
+  .menu-item {
+    flex-direction: column;
+  }
+
+  .menu-item-info {
+    text-align: center;
+  }
+
+  .menu-items {
+    gap: 36px;
+  }
+
+  .menu-item.appetizer-item img {
+    order: 2;
+  }
+
+  .menu-item.appetizer-item .menu-item-info {
+    order: 1;
+  }
+
+  .menu-item.side-dish-item img {
+    order: 2;
+  }
+
+  .menu-item.side-dish-item .menu-item-info {
+    order: 1;
+  }
+}

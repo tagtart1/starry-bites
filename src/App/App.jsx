@@ -14,6 +14,7 @@ import { Footer } from "../components/Footer/Footer";
 import ParallaxBlock from "../components/Misc/ParallaxBlock";
 import ParallaxHomeSkillet from "../components/Misc/ParallaxHomeSkillet";
 import { MenuBlock } from "../components/Menu Block/MenuBlock";
+import HamburgerHeader from "../components/Header/HamburgerHeader";
 function App() {
   const parallax = useRef(null);
   const { height, width } = useAdaptiveSize();
@@ -30,13 +31,17 @@ function App() {
         innerStyle={{ maxWidth: "1920px" }}
         key={height}
       >
-        <div className="intro-greeting">
-          <h1>Dive into a cosmic journey of exquisite flavors</h1>
-          <button className="book-a-table">Book A Table</button>
-        </div>
-        <ParallaxHomeSkillet />
         <Header parallax={parallax} />
-        {width < 1600 ? <div></div> : <ParallaxBlock height={height} />}
+        <div className="intro-greeting-block">
+          <div className="intro-greeting">
+            <h1>Dive into a cosmic journey of exquisite flavors</h1>
+            <button className="book-a-table">Book A Table</button>
+          </div>
+          <ParallaxHomeSkillet width={width} />
+        </div>
+
+        <HamburgerHeader parallax={parallax} />
+        {width < 1600 ? <></> : <ParallaxBlock height={height} />}
 
         <AboutUs />
         <MenuBlock parallax={parallax} />
