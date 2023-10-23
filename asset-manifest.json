@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/starry-bites/static/css/main.ce7c392b.css",
-    "main.js": "/starry-bites/static/js/main.2df2b352.js",
+    "main.css": "/starry-bites/static/css/main.3cc19696.css",
+    "main.js": "/starry-bites/static/js/main.ed22fc64.js",
     "static/media/appetizer.png": "/starry-bites/static/media/appetizer.b4a547c1733c2588e4d6.png",
     "static/media/steak-skillet.png": "/starry-bites/static/media/steak-skillet.bccc5b56fbef8ec4704e.png",
     "static/media/cafe.png": "/starry-bites/static/media/cafe.a34e99965014a3928768.png",
     "static/media/dill.png": "/starry-bites/static/media/dill.5573b4dd9e46ade4cdd4.png",
+    "static/media/steak-skillet-static.png": "/starry-bites/static/media/steak-skillet-static.1b06c5289bb231df5aa5.png",
     "static/media/dessert.png": "/starry-bites/static/media/dessert.bc9d74dffd5cddfb47a6.png",
     "static/media/salt.png": "/starry-bites/static/media/salt.49ce6e0537304738def7.png",
     "static/media/grilled-steak.png": "/starry-bites/static/media/grilled-steak.d2ec404b856ca7265d1c.png",
@@ -20,12 +21,13 @@
     "static/media/thyme-stem.png": "/starry-bites/static/media/thyme-stem.6adb877eb669de639fdf.png",
     "static/media/herbs1.png": "/starry-bites/static/media/herbs1.44da69f56f881ed95a0a.png",
     "static/media/thyme-stem2.png": "/starry-bites/static/media/thyme-stem2.49b3ed26af3f4859cb8d.png",
+    "static/media/hamburger-iconpng.png": "/starry-bites/static/media/hamburger-iconpng.e5201c34d6202191df95.png",
     "index.html": "/starry-bites/index.html",
-    "main.ce7c392b.css.map": "/starry-bites/static/css/main.ce7c392b.css.map",
-    "main.2df2b352.js.map": "/starry-bites/static/js/main.2df2b352.js.map"
+    "main.3cc19696.css.map": "/starry-bites/static/css/main.3cc19696.css.map",
+    "main.ed22fc64.js.map": "/starry-bites/static/js/main.ed22fc64.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce7c392b.css",
-    "static/js/main.2df2b352.js"
+    "static/css/main.3cc19696.css",
+    "static/js/main.ed22fc64.js"
   ]
 }
