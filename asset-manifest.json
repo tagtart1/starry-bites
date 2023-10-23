@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/starry-bites/static/css/main.3cc19696.css",
+    "main.css": "/starry-bites/static/css/main.9633711c.css",
     "main.js": "/starry-bites/static/js/main.ed22fc64.js",
     "static/media/appetizer.png": "/starry-bites/static/media/appetizer.b4a547c1733c2588e4d6.png",
     "static/media/steak-skillet.png": "/starry-bites/static/media/steak-skillet.bccc5b56fbef8ec4704e.png",
@@ -23,11 +23,11 @@
     "static/media/thyme-stem2.png": "/starry-bites/static/media/thyme-stem2.49b3ed26af3f4859cb8d.png",
     "static/media/hamburger-iconpng.png": "/starry-bites/static/media/hamburger-iconpng.e5201c34d6202191df95.png",
     "index.html": "/starry-bites/index.html",
-    "main.3cc19696.css.map": "/starry-bites/static/css/main.3cc19696.css.map",
+    "main.9633711c.css.map": "/starry-bites/static/css/main.9633711c.css.map",
     "main.ed22fc64.js.map": "/starry-bites/static/js/main.ed22fc64.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc19696.css",
+    "static/css/main.9633711c.css",
     "static/js/main.ed22fc64.js"
   ]
 }
