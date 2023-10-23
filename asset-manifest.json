@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/starry-bites/static/css/main.ce7c392b.css",
+    "main.js": "/starry-bites/static/js/main.2df2b352.js",
+    "static/media/appetizer.png": "/starry-bites/static/media/appetizer.b4a547c1733c2588e4d6.png",
+    "static/media/steak-skillet.png": "/starry-bites/static/media/steak-skillet.bccc5b56fbef8ec4704e.png",
+    "static/media/cafe.png": "/starry-bites/static/media/cafe.a34e99965014a3928768.png",
+    "static/media/dill.png": "/starry-bites/static/media/dill.5573b4dd9e46ade4cdd4.png",
+    "static/media/dessert.png": "/starry-bites/static/media/dessert.bc9d74dffd5cddfb47a6.png",
+    "static/media/salt.png": "/starry-bites/static/media/salt.49ce6e0537304738def7.png",
+    "static/media/grilled-steak.png": "/starry-bites/static/media/grilled-steak.d2ec404b856ca7265d1c.png",
+    "static/media/ingredients.png": "/starry-bites/static/media/ingredients.9526093f1f37966ea05d.png",
+    "static/media/pepper.png": "/starry-bites/static/media/pepper.4ed2896d077261aad252.png",
+    "static/media/wooden-spoon2.png": "/starry-bites/static/media/wooden-spoon2.7305a1b7d6f68a340692.png",
+    "static/media/maindish.png": "/starry-bites/static/media/maindish.fc7c3b8a826630a97bc1.png",
+    "static/media/sidedish.png": "/starry-bites/static/media/sidedish.7695aa3c6183c44ea11e.png",
+    "static/media/rosemary.png": "/starry-bites/static/media/rosemary.7ff88f1ccdb86bf3f4ee.png",
+    "static/media/women-making-dinner-and-drinking-wine.jpg": "/starry-bites/static/media/women-making-dinner-and-drinking-wine.41fc0477e4abe986f2e1.jpg",
+    "static/media/wooden-spoon.png": "/starry-bites/static/media/wooden-spoon.ee3b647cadc3cd4b7ace.png",
+    "static/media/thyme-stem.png": "/starry-bites/static/media/thyme-stem.6adb877eb669de639fdf.png",
+    "static/media/herbs1.png": "/starry-bites/static/media/herbs1.44da69f56f881ed95a0a.png",
+    "static/media/thyme-stem2.png": "/starry-bites/static/media/thyme-stem2.49b3ed26af3f4859cb8d.png",
+    "index.html": "/starry-bites/index.html",
+    "main.ce7c392b.css.map": "/starry-bites/static/css/main.ce7c392b.css.map",
+    "main.2df2b352.js.map": "/starry-bites/static/js/main.2df2b352.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce7c392b.css",
+    "static/js/main.2df2b352.js"
+  ]
+}
